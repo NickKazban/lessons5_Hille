@@ -53,9 +53,18 @@
 ////////////////Приклад promt///////////////
 
 // Function Expression
+
+var prompt = require('prompt');                                   //стороння бібліотека prompt
+
 let squareArea = function () {
-    let a = prompt("Ввести сторону квадрату");
-    console.log(a * a);
+    prompt.start();                                                //стартує біліотека звідси
+    let side = prompt.get(["side"], function (err, result) {
+           console.log("side:", result.side);
+           console.log("side: " + result.side);
+           let side =  result.side;
+           console.log(side * side);
+    });
 }
 squareArea();
+
 
