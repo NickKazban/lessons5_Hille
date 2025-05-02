@@ -39,13 +39,23 @@
 
 ////////////////спроба змінити зміну в середині функкції///////////////
 
-"use strict";
-function tets2(){
-    myVar="Нажаль це буде не число,але я його покажу"
-    console.log("А тепер покажи мені це число "+ myVar)
-    console.log("Спробуй показати мені це ще раз "+ myVar)
-    let myVar=" А тепер я зовсім іннший"
-}
+// "use strict";
+// function tets2(){
+//     myVar="Нажаль це буде не число,але я його покажу"
+//     console.log("А тепер покажи мені це число "+ myVar)
+//     console.log("Спробуй показати мені це ще раз "+ myVar)
+//     let myVar=" А тепер я зовсім іннший"
+// }
 
-tets2();
+// tets2();
+
+
+////////////////Приклад promt///////////////
+
+// Function Expression
+let squareArea = function () {
+    let a = prompt("Ввести сторону квадрату");
+    console.log(a * a);
+}
+squareArea();
 

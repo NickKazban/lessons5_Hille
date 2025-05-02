@@ -1,0 +1,22 @@
+{
+  "name": "git_lesson5",
+  "version": "1.0.0",
+  "description": "Learning JS 02052025",
+  "main": "error.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickKazban/lessons5_Hille.git"
+  },
+  "author": "Nick Kazban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickKazban/lessons5_Hille/issues"
+  },
+  "homepage": "https://github.com/NickKazban/lessons5_Hille#readme",
+  "dependencies": {
+    "promt": "^0.0.0"
+  }
+}
