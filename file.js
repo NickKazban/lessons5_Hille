@@ -12,11 +12,16 @@
 ////////////////--------////////////////
 
 
-var ext = "Зовнішня змінна";
+// var ext = "Зовнішня змінна11";
+// //var inner = "Test";
+// function test() {
+//     var inner = "Тільки для внутрішнього користування"; // але краще писати let 
+//     console.log('Бачу: ext=' + ext);
+//     console.log('Бачу: inner=' + inner);
+// }
+// test();
+// console.log('Бачу: ext=' + ext);
+// console.log('Бачу: inner=' + inner);
 
-function test() {
-    var inner = "Тільки для внутрішнього користування";
-    console.log('Бачу: ext=' + ext);
-    console.log('Бачу: inner=' + inner);
-}
-test();
+
+////////////////--------////////////////
