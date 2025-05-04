@@ -111,14 +111,17 @@
 // Поняття return
 // Розглянемо що повертає функція за замовчуванням,
 /*let a = 5;
+let b=6;
 
 function squareAreaCalculation() {
     let result = a * a; // Але все одно погано що ми маємо залежність через використання зовнішньої змінної:
     return result;
+    let summ=a+b; // Після return вже нічого не буде записувати та виконуватись 
+    return summ; // А також буде підсвічувтись сірим  
 }
  var result = squareAreaCalculation();
  var result2=result+'Hello';
-let result3=result+result2;
+let result3=result+result2+b;
 
  
  console.log('Перший результат буде число:'+ result);
@@ -127,4 +130,5 @@ let result3=result+result2;
  console.log('Перше значення буде мати тип значення :'+ typeof(result));
  console.log('Друге значення буде мати тип значення :'+ typeof(result2));
  console.log('Спробуємо додати два значення :'+ result3);*/
+
  
