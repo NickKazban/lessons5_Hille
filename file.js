@@ -112,18 +112,22 @@
 // Розглянемо що повертає функція за замовчуванням
 // let a = 5;
 
-// function squareAreaCalculation() {
-//     let result = a * a; // Але все одно погано що ми маємо залежність через використання зовнішньої змінної:
-//     return result;
-// }
-//  var result = squareAreaCalculation();
-//  var result2=result+'Hello';
+function squareAreaCalculation() {
+    let result = a * a; // Але все одно погано що ми маємо залежність через використання зовнішньої змінної:
+    return result;
+}
+ var result = squareAreaCalculation();
+ var result2=result+'Hello';
+let result3=result+result2;
 
  
-//  console.log('Перший результат буде число:'+ result);
-//  console.log('Другий результат буде рядок:'+ result2);
-//  console.log("Якщо ж визначити, який тип вони мають тоді")
-//  console.log('Перше значення буде мати тип значення :'+ typeof(result));
-//  console.log('Друге значення буде мати тип значення :'+ typeof(result2));
+ console.log('Перший результат буде число:'+ result);
+ console.log('Другий результат буде рядок:'+ result2);
+ console.log("Якщо ж визначити, який тип вони мають тоді")
+ console.log('Перше значення буде мати тип значення :'+ typeof(result));
+ console.log('Друге значення буде мати тип значення :'+ typeof(result2));
+ console.log('Спробуємо додати два значення :'+ result3);
 
 
+
+Спробуємо додати два значення 
