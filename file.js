@@ -131,4 +131,32 @@ let result3=result+result2+b;
  console.log('Друге значення буде мати тип значення :'+ typeof(result2));
  console.log('Спробуємо додати два значення :'+ result3);*/
 
- 
+ ///////////////////////////// Приклади з параметрами /////////////////////////////
+
+// Приклад з курсу
+ /* function hello(name, surname, age){
+    console.log("Hello " + name + " " + surname + ", your age is " + age);
+}
+hello('Dmitro', 'Tuchina', 12 );*/
+
+// Мій приклад для перевірки вивченого
+/*function sale(Name, Surname,magazine, sale, product){
+    console.log('ПРивіт '+Name+' '+Surname+' ,ми раді вітати тебе в нашому магазині,'+ magazine+ ', ти отримав знижку в ' + sale +' відсотківна продукт ' +product+'. Приходь та забирай свою знижку')
+}
+sale('Nick', 'Kazban', 'Foxtrot', '35', 'Asus-X51L');*/
+
+///////////////////////////// Приклади з викликом функції/////////////////////////////
+
+
+/*function hello(name, surname) {
+    let greet = 'Hello ';
+    name = name || 'John Snow';
+    if (surname)
+        greet += name + ' ' + surname;
+    else
+        greet += name;
+    return greet;
+}
+
+console.log(hello());
+console.log(hello('John1'));*/
