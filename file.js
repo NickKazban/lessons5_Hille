@@ -159,4 +159,25 @@ sale('Nick', 'Kazban', 'Foxtrot', '35', 'Asus-X51L');*/
 }
 
 console.log(hello());
-console.log(hello('John1'));*/
+console.log(hello('John1'));*/ 
+
+
+// Інший варіант як можна задати значення за замовчуванням
+/*function hello(name= 'default') {
+    return   'Hello ' + name;
+}
+console.log(hello());
+console.log(hello('Volodimir'));*/
+
+// Homework for 5 lessons
+
+/*function pow(x,y){
+   let result =1;
+   for(let i=0;i<y;i++){
+    result *=x;
+   }
+   return result;
+}
+console.log(pow(2, 4));*/
+
+
